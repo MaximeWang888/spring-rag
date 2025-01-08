@@ -93,6 +93,6 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: Dockerfile
+          file: ./docker/Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/spring-rag:latest
