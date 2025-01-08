@@ -25,7 +25,7 @@ dependencies {
 }
 
 bootJar {
-	mainClassName = 'com.efrei.rag.RagApplication'
+	mainClass = 'com.efrei.rag.RagApplication'
 }
 
 tasks.named('test') {
