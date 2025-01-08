@@ -24,6 +24,10 @@ dependencies {
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
+bootJar {
+	mainClassName = 'com.efrei.rag.RagApplication'
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
