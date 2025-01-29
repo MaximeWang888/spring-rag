@@ -3,7 +3,7 @@ package com.efrei.rag;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/sample")
+@RequestMapping("/samples")
 public class RagController {
     @GetMapping("/EFREI")
     public String ping() {
