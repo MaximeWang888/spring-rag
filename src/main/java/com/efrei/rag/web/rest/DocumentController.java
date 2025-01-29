@@ -1,4 +1,4 @@
-package com.efrei.rag.rest;
+package com.efrei.rag.web.rest;
 
 import com.efrei.rag.domain.Document;
 import com.efrei.rag.service.DocumentService;
