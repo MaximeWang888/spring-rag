@@ -1,4 +1,4 @@
-package main.com.efrei.rag;
+package com.efrei.rag;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
