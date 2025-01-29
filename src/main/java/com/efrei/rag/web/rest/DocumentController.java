@@ -32,10 +32,16 @@ public class DocumentController {
         return ResponseEntity.created(new URI("/api/documents/" + result.getId())).body(result);
     }
 
-
     @GetMapping("/documents")
     public Optional<List<Document>> getAllDocuments() throws Exception {
         log.debug("REST request to get a page of documents");
         return documentService.findAll();
+    }
+
+    @PostMapping("/documents/chat2/{user}")
+    public String chat2(@RequestBody String query) throws InterruptedException {
+        String result = documentService.chat(query);
+
+        return result;
     }
 }
