@@ -1,4 +1,4 @@
-package com.efrei.rag;
+package com.efrei.rag.rest;
 
 import org.springframework.web.bind.annotation.*;
 
